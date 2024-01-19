@@ -9,6 +9,8 @@
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-pattern": "^foo",
-    "scss/selector-no-redundant-nesting-selector": true
+    "scss/selector-no-redundant-nesting-selector": true,
+    "custom-property-pattern": "^([a-z][a-z0-9]*)(_{1,}[a-z0-9]+)*$",
+    "selector-class-pattern": "^([a-z][a-z0-9]*)(_{1,}[a-z0-9]+)*$"
   }
 }
